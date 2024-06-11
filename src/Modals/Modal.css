@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.m-1{
+    text-align: center;
+}
+
+button{
+    width: 120px;
+    height: 35px;
+    background-color: blue;
+    color: antiquewhite;
+    border: none;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 50px;
+}

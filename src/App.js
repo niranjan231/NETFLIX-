@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Modal from "./Modals/Modal";
 
-import Header from './Component/Header';
 
 function App() {
   return (
     <div>
+  <Modal/>
       
-      <Header></Header>
     </div>
   );
 }
