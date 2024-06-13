@@ -1,0 +1,106 @@
+*{
+    padding: 0;margin: 0;
+}
+
+.nt-1{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  
+
+    
+    
+}
+h2{
+    color: red;
+    font-weight: 700;
+    font-size: 60px;
+}
+.btn-2{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgba(31, 3, 3, 0.856);
+    margin-left: 300px;
+    color: white;
+}
+.btn-3{
+    background-color: red;
+    color: white;
+    border: none;
+    text-decoration: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+.inter{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/cacfadb7-c017-4318-85e4-7f46da1cae88/e43aa8b1-ea06-46a5-abe3-df13243e718d/IN-en-20240603-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    padding-bottom: 200px;
+   
+}
+.heading-1{
+    color: white;
+ text-align: center;
+ margin-top: 150px;
+ font-weight: 900;
+ font-size: 150px;
+}
+.input-box-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+.input-box-2{
+    /* width: 300px; */
+    width: 350px;
+    height: 60px;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.628);
+    border: 2px solid white;
+}
+.btn-inp-1{
+    height: 60px;
+    width: 180px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.btn-inp-1:hover{
+    background-color: rgb(168, 12, 12);
+}
+.scr-2{
+    width: 100%;
+    height:450px;
+    background-color: black;
+}
+.scr2-h1{
+    color: white;
+    font-weight: 800;
+    /* text-align: center; */
+    
+}
+.scr2-p{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    /* text-align: center; */
+
+}
+.scr2-img{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png");
+}
+.scr-2{
+    display: flex;
+    justify-content: space-around;
+}
+.scr2-2{
+    text-align: center;
+    margin-top: 140px;
+
+}
+.scr2-img{
+    width: 500px;
+    height: 400px;
+}

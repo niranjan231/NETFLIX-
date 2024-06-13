@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Modal from "./Modals/Modal";
+import Netflix from './NETFLIX/Netflix';
+
 
 
 function App() {
   return (
     <div>
-  <Modal/>
-      
+ <Netflix/>      
     </div>
   );
 }

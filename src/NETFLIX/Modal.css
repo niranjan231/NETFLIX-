@@ -1,0 +1,77 @@
+*{
+    margin: 0;padding: 0;
+}
+.div-flex{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(202, 189, 189, 0.311);
+
+}
+.modal-1{
+    position: fixed;
+    width: 450px;
+    height: 738px;
+    background-color: #000000e2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50px);
+   
+}
+.modal-sign{
+    color: white;
+    font-weight: 600;
+    margin-left: 65px;
+    
+
+}
+.modal-inp1{
+    background-color: #000000e2;
+    width: 320px;
+    height: 55px;
+    margin-top: 25px;
+    text-align: center;
+
+}
+.modal-inp2{
+    background-color: #000000e2;
+    width: 320px;
+    height: 55px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.modal-inp3{
+    background-color:red;
+    width: 320px;
+    height: 55px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.modal-inp3:hover{
+    background-color: rgb(196, 30, 30);
+}
+.form-1{
+    text-align: center;
+    
+}
+.modal-h3{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+.modal-inp4{
+    background-color:rgba(0, 0, 0, 0.189);
+    width: 320px;
+    height: 55px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+text-align: center;
+}
