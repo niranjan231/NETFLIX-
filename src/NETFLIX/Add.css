@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.add-1{
+    width: 100vw;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.add-h1{
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+}
+.add-p{
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+}
+.add-4{
+    height: 300px;
+    width: 450px;
+    position: relative;
+    
+}

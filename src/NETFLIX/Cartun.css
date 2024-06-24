@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cartun-box{
+    background-color: black;
+    width: 100vw;
+    height:600px;
+    position: relative;
+}
+.cartun-1{
+    width: 456px;
+    height: 342px;
+    background-image: url("https://occ-0-3752-3646.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d");
+    background-size: cover;
+}
+.cartun-h{
+   
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+   
+}
+.cartun-heading{
+    width: 468;
+    height: 350px;
+}
+.cartun-p{
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+   
+}
+.cartun-flexbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    margin-top: 150px;
+}
+
+@media (max-width:600px) {
+    .cartun-flexbox{
+        flex-wrap: wrap;
+    }
+}

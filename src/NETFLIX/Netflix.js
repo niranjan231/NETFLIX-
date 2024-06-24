@@ -2,10 +2,21 @@ import "./Netflix.css";
 import {useState} from "react";
 // import { Dropdown } from "react-bootstrap";
 import Modal from "./Modal";
+import Download from "./Download";
+import Add from "./Add";
+import Cartun from "./Cartun";
+import Footer from "./Footer";
+
+
 const Netflix=()=>{
   const [signin , setSigIn] = useState(false);
+  const [emailBtn , setEmailBtn] = useState("");
   const handleSigin=()=>{
        setSigIn(true);
+  }
+  const handleEmailBtn=()=>{
+  
+    window.location.href="https://www.netflix.com/signup/registration?locale=en-IN";
   }
     return(
         <div>
@@ -26,24 +37,14 @@ const Netflix=()=>{
   </div>
   <div className="input-box-1">
     <div><input className="input-box-2" type="text" placeholder="Email Adress" ></input></div>
-  <div><button className="btn-inp-1">Get Started</button></div>
+  <div><button onClick={handleEmailBtn} className="btn-inp-1">Get Started</button></div>
   </div>
 </div>
-
-{/* second page */}
-<div className="scr-2">
-<div className="scr2-2">
-  <h1 className="scr2-h1">Enjoy on your TV</h1>
-  <p className="scr2-p" >Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players .</p>
-</div>
-<div className="scr2-img">
-{/* <img className="scr2-img"  src="" > */}
-{/* </img> */}
-<video width="300" hight="400" control>
-  <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4" ></source>
-</video>
-</div>
-</div>
+{/* second screen */}
+< Add/>
+<Cartun/>
+<Download/>
+<Footer/>
 
 
 </div>

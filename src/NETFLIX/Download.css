@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.download-in{
+background-color: black;
+/* position: relative; */
+}
+.download-1{
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+
+}
+.download-2{
+    width: 800px;
+    height: 80px;
+    background-color: rgba(119, 112, 112, 0.347);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 220px;
+}
+.download-3{
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    align-items: center;
+}
+.download-4{
+    color: white;
+    font-weight: 900;
+    font-size: px;
+}
+
+.download-input{
+    width: 300px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.416);
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.download-button{
+    background-color: rgb(254, 3, 3);
+    color: white;
+    height: 60px;
+    width: 230px;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    border: none;
+}
+.download-inputbox{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+   
+}
+
